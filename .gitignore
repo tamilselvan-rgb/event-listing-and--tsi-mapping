@@ -1,0 +1,8 @@
+.env
+cache/
+browser-profile/
+__pycache__/
+*.pyc
+_probe*
+output/*.csv
+output/*.md
