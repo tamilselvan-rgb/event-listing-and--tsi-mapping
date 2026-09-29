@@ -48,6 +48,16 @@ Cap detail requests per source (testing):
 python event-listing/scrape_events.py --max-detail-pages 500
 ```
 
+### Serper (fill missing `event_domain`)
+
+Set `SERPER_API_KEYS=key1,key2` in `.env`, then:
+
+```powershell
+python event-listing/discover_domains_serper.py --workers 20
+```
+
+Uses both keys in rotation, 20 parallel lookups, random order among rows with blank domain. Cache: `cache/serper_domains.json`.
+
 `events_final.csv` adds TSI fields: `ei_located`, `tsi_located`, `listing_tier`, `tsi_url`, `event_central_id`, and related match metadata.
 
 ### Deduplication rule

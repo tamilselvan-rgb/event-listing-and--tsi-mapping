@@ -1,6 +1,8 @@
 .env
 cache/
 browser-profile/
+config/expofinder_session.json
+config/*_session.json
 __pycache__/
 *.pyc
 _probe*

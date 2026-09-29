@@ -1,0 +1,15 @@
+{
+  "cookies": [
+    {
+      "name": "YOUR_COOKIE_NAME",
+      "value": "YOUR_COOKIE_VALUE",
+      "domain": ".expofinder.com",
+      "path": "/",
+      "expires": 1735689600,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}
